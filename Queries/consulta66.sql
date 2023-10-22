@@ -17,7 +17,7 @@ select  i_item_id
    and i_category in ('Men', 'Children', 'Shoes')
    and cs_sold_date_sk = d_date_sk
  and d_date between cast('1999-02-11' as date) 
- 				and (cast('1999-02-11' as date) + 30 days)
+ 				and (cast('1999-02-11' as date) + 30)
  group by i_item_id
          ,i_item_desc 
          ,i_category

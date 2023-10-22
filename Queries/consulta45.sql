@@ -3,7 +3,7 @@
 
 
 select  
-   sum(ws_ext_discount_amt)  as "Excess Discount Amount" 
+   sum(ws_ext_discount_amt)  Excess_Discount_Amount 
 from 
     web_sales 
    ,item 
@@ -12,7 +12,7 @@ where
 i_manufact_id = 950
 and i_item_sk = ws_item_sk 
 and d_date between '2000-03-20' and 
-        (cast('2000-03-20' as date) + 90 days)
+        (cast('2000-03-20' as date) + 90 )
 and d_date_sk = ws_sold_date_sk 
 and ws_ext_discount_amt  
      > ( 
@@ -24,7 +24,7 @@ and ws_ext_discount_amt
          WHERE 
               ws_item_sk = i_item_sk 
           and d_date between '2000-03-20' and
-                             (cast('2000-03-20' as date) + 90 days)
+                             (cast('2000-03-20' as date) + 90 )
           and d_date_sk = ws_sold_date_sk 
       ) 
 order by sum(ws_ext_discount_amt)
