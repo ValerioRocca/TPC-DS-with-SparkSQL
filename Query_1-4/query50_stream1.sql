@@ -15,7 +15,7 @@ select
   ,sum(case when (sr_returned_date_sk - ss_sold_date_sk > 60) and 
                  (sr_returned_date_sk - ss_sold_date_sk <= 90) then 1 else 0 end)  as d61_90_days
   ,sum(case when (sr_returned_date_sk - ss_sold_date_sk > 90) and
-                 (sr_returned_date_sk - ss_sold_date_sk <= 120) then 1 else 0 end)  as d91-120 days
+                 (sr_returned_date_sk - ss_sold_date_sk <= 120) then 1 else 0 end)  as d91_120_days
   ,sum(case when (sr_returned_date_sk - ss_sold_date_sk  > 120) then 1 else 0 end)  as gt_120 days
 from
    store_sales
