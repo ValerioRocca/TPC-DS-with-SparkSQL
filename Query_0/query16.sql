@@ -1,7 +1,7 @@
 select  
-   count(distinct cs_order_number) as "order_count"
-  ,sum(cs_ext_ship_cost) as "total_shipping_cost"
-  ,sum(cs_net_profit) as "total_net_profit"
+   count(distinct cs_order_number) as order_count
+  ,sum(cs_ext_ship_cost) as total_shipping_cost
+  ,sum(cs_net_profit) as total_net_profit
 from
    catalog_sales cs1
   ,date_dim
