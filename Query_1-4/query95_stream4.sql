@@ -6,7 +6,7 @@ with ws_wh as
  select  
    count(distinct ws_order_number) as order_count
   ,sum(ws_ext_ship_cost) as total_shipping_cost
-  ,sum(ws_net_profit) as total_net _profit
+  ,sum(ws_net_profit) as total_net_profit
 from
    web_sales ws1
   ,date_dim
