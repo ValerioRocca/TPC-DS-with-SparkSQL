@@ -8,7 +8,7 @@ select
   ,sum(case when (ws_ship_date_sk - ws_sold_date_sk > 60) and 
                  (ws_ship_date_sk - ws_sold_date_sk <= 90) then 1 else 0 end)  as d61_90_days
   ,sum(case when (ws_ship_date_sk - ws_sold_date_sk > 90) and
-                 (ws_ship_date_sk - ws_sold_date_sk <= 120) then 1 else 0 end)  as d91-120_days 
+                 (ws_ship_date_sk - ws_sold_date_sk <= 120) then 1 else 0 end)  as d91_120_days 
   ,sum(case when (ws_ship_date_sk - ws_sold_date_sk  > 120) then 1 else 0 end)  as gt_120_days
 from
    web_sales
