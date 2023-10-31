@@ -34,7 +34,7 @@ For the successful setup and execution of the project, ensure you have the follo
 
 To install these tools and technologies, follow the instructions provided by the respective tool's official documentation or download from the specified versions to ensure compatibility and successful execution of the benchmark analysis.
 
-Note: Be careful with Spark instalation in terms of Java version and Scala version and environment variables setting. The documentation and steps to follow could be found in https://spark.apache.org/docs/latest/.
+Note: Be careful with Spark installation in terms of Java version and Scala version and environment variables setting. The documentation and steps to follow can be found at https://spark.apache.org/docs/latest/.
 
 ## Usage
 
@@ -47,9 +47,9 @@ make clean
 make OS=LINUX
 make
 ```
-2. Install Spark: Download the zipfile about spark + hadoop version and follow the next steps:
+2. Install Spark: Download the zip file about spark + Hadoop version and follow the next steps:
 
-Unzip the file.zip downloaded from Spark site.
+Unzip the file.zip downloaded from the Spark site.
 
 ```
 tar -xzvf spark-3.x.x-bin-hadoop2.7.tgz
@@ -63,27 +63,24 @@ export JAVA_HOME=/<folder>/java11
 export PATH=$SPARK_HOME/bin:$PATH
 ```
 
-If you do not know what are the folders, you can write in terminal:
+If you do not know what are the folders, you can write in the terminal:
 
 ```
 which spark-shell
 ```
 And then, configure properly the environment variables.
 
-3. Install python to work over Spark from Python through Pyspark library.
-4. Download this github to have the same queries and files
-5. Generate the different scales of data, the data must be in data folder separated by folder according to the SCALE, for example: SCALE 1 in foldet Data1. And you can generate them in terminal or visual studio code over toolkit folder with next command:
+3. Install Python to work over Spark from Python through the Pyspark library.
+4. Download this GitHub to have the same queries and files
+5. Generate the different scales of data, the data must be in the data folder separated by folder according to the SCALE, for example: SCALE 1 in folder Data1. You can generate them in the terminal or visual studio code over the toolkit folder with the next command:
 
 ```
 ./dsdgen -DIR ../data<SC>  -SCALE <SC>
 ```
 6. Follow the steps in Spark.ipynb.
-7. The results for loading and query execution are saved in result folder.
+7. The results for loading and query execution are saved in the result folder.
 
-Note: If you want, you can run new queries too from toolkit. Follow guide user. 
-
-
-
+Note: If you want, you can run new queries from the toolkit. Follow the guide user. 
 
 ## Results and Interpretation
 
