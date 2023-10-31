@@ -26,7 +26,7 @@ For the successful setup and execution of the project, ensure you have the follo
 | Python              | 3.11    | High-level, general-purpose programming language used to execute scripts.                             |
 | Visual Studio Code  | 1.83.1  | IDE used to generate data and queries via 'dsdgen' and 'dsqgen'.                                      |
 | Jupyter Notebook    | 7.0.6   | Environment utilized for producing Python notebooks.                                                  |
-| GitHub Desktop      | -       | Used to share code files and images conveniently among team members via GitHub.                        |
+| GitHub Desktop      | -       | Used to share code files and images conveniently among team members via GitHub.                        
 The analysis was performed on a desktop equipped with:
   - Processor: Intel(R) Core(TM) i5-2400 GPU 3.10GHz
   - RAM: 8045MB
