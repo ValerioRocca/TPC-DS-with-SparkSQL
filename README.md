@@ -34,11 +34,56 @@ For the successful setup and execution of the project, ensure you have the follo
 
 To install these tools and technologies, follow the instructions provided by the respective tool's official documentation or download from the specified versions to ensure compatibility and successful execution of the benchmark analysis.
 
-###Note: Be careful with Spark instalation in terms of Java version adn Scala version and environment variables setting. The documentation and steps to follow could be found in https://spark.apache.org/docs/latest/.
+Note: Be careful with Spark instalation in terms of Java version and Scala version and environment variables setting. The documentation and steps to follow could be found in https://spark.apache.org/docs/latest/.
 
 ## Usage
 
-TODO user guide
+1. Download the TPC-DS folder from the official webpage and follow the next steps to create the binaries. If your platform is different, please follow the guide inside the toolkit.
+
+```
+unzip <downloaded-tpc-ds-zipfile>
+cd <tpc-ds-folder>/tools
+make clean
+make OS=LINUX
+make
+```
+2. Install Spark: Download the zipfile about spark + hadoop version and follow the next steps:
+
+Unzip the file.zip downloaded from Spark site.
+
+```
+tar -xzvf spark-3.x.x-bin-hadoop2.7.tgz
+```
+
+Configure environment variables:
+
+```
+export SPARK_HOME=/folder/spark
+export JAVA_HOME=/folder/java11
+export PATH=$SPARK_HOME/bin:$PATH
+```
+
+If you do not know what are the folders, you can write in terminal:
+
+```
+which spark-shell
+```
+And then, configure properly the environment variables.
+
+3. Install python to work over Spark from Python through Pyspark library.
+4. Download this github to have the same queries and files
+5. Generate the different scales of data, the data must be in data folder separated by folder according to the SCALE, for example: SCALE 1 in foldet Data1. And you can generate them in terminal or visual studio code over toolkit folder with next command:
+
+```
+./dsdgen -DIR ../data$SC  -SCALE $SC
+```
+6. Follow the steps in Spark.ipynb.
+7. The results for loading and query execution are saved in result folder.
+
+
+
+
+
 
 ## Results and Interpretation
 
