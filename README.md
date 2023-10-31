@@ -34,6 +34,8 @@ For the successful setup and execution of the project, ensure you have the follo
 
 To install these tools and technologies, follow the instructions provided by the respective tool's official documentation or download from the specified versions to ensure compatibility and successful execution of the benchmark analysis.
 
+###Note: Be careful with Spark instalation in terms of Java version adn Scala version and environment variables setting. The documentation and steps to follow could be found in https://spark.apache.org/docs/latest/.
+
 ## Usage
 
 TODO user guide
