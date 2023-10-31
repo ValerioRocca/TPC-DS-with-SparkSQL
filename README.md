@@ -80,7 +80,7 @@ And then, configure properly the environment variables.
 6. Follow the steps in Spark.ipynb.
 7. The results for loading and query execution are saved in result folder.
 
-
+Note: If you want, you can run new queries too from toolkit. Follow guide user. 
 
 
 
