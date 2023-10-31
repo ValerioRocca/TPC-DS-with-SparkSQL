@@ -58,8 +58,8 @@ tar -xzvf spark-3.x.x-bin-hadoop2.7.tgz
 Configure environment variables:
 
 ```
-export SPARK_HOME=/folder/spark
-export JAVA_HOME=/folder/java11
+export SPARK_HOME=/<folder>/spark
+export JAVA_HOME=/<folder>/java11
 export PATH=$SPARK_HOME/bin:$PATH
 ```
 
@@ -75,7 +75,7 @@ And then, configure properly the environment variables.
 5. Generate the different scales of data, the data must be in data folder separated by folder according to the SCALE, for example: SCALE 1 in foldet Data1. And you can generate them in terminal or visual studio code over toolkit folder with next command:
 
 ```
-./dsdgen -DIR ../data$SC  -SCALE $SC
+./dsdgen -DIR ../data<SC>  -SCALE <SC>
 ```
 6. Follow the steps in Spark.ipynb.
 7. The results for loading and query execution are saved in result folder.
