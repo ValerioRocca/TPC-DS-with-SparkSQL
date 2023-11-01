@@ -27,10 +27,7 @@ For the successful setup and execution of the project, ensure you have the follo
 | Visual Studio Code  | 1.83.1  | IDE used to generate data and queries via 'dsdgen' and 'dsqgen'.                                      |
 | Jupyter Notebook    | 7.0.6   | Environment utilized for producing Python notebooks.                                                  |
 | GitHub Desktop      | -       | Used to share code files and images conveniently among team members via GitHub.                        
-| Desktop PC          | -       | The analysis was performed on a desktop equipped with:
-  - Processor: Intel(R) Core(TM) i5-2400 GPU 3.10GHz
-  - RAM: 8045MB
-  - Operating System: Debian GNU/Linux 12.
+| Desktop PC          | -       | The analysis was performed on a desktop equipped with: 1) Processor: Intel(R) Core(TM) i5-2400 GPU 3.10GHz; 2) RAM: 8045MB; 3) Operating System: Debian GNU/Linux 12. |
 
 To install these tools and technologies, follow the instructions provided by the respective tool's official documentation or download from the specified versions to ensure compatibility and successful execution of the benchmark analysis.
 
