@@ -53,6 +53,8 @@ make clean
 make OS=LINUX
 make
 ```
+
+Note: If Makefile does not work, you can add "LINUX_CFLAGS	= -g -Wall -fcommon" in make file into tools folder.
 2. Install Spark: Download the zip file about spark + Hadoop version and follow the next steps:
 
 Unzip the file.zip downloaded from the Spark site.
