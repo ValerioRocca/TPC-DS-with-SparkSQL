@@ -1,2 +1,2 @@
 Some queries were optimized to see the time-consuming in the tool. The comparison was based just in "power test time". In this folder you can find the folders
-to run original queries and optimized queries. The queries optimized are 13,22,23,48,82.
+to run optimized queries. The queries optimized are 13,22,23,48,82.
