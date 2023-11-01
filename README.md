@@ -89,7 +89,7 @@ And then, configure properly the environment variables.
 ```
 6. Follow the steps in Spark.ipynb.
 7. The results for loading and query execution are saved in the result folder.
-8. To run optimization queries and make a comparison, make appropiate modifications in Spark.ipynb and create files with results for optimization and original queries, and compare them through Comparison Original vs Optimized.ipynb file.
+8. To run optimization queries and make a comparison, make appropiate modifications in Spark.ipynb and create files with results for optimization and original queries, and compare them through Comparison Original vs Optimized.ipynb file. (change the folder to read new queries and add suffixes on the result)
 
 Note: If you want, you can run new queries from the toolkit. Follow the guide user. 
 
