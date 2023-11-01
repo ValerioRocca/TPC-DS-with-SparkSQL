@@ -6,6 +6,15 @@ This project focuses on assessing the performance and scalability of Apache Spar
 
 The project includes various analyses, such as measuring query execution times, assessing scalability factors, and evaluating the system's efficiency under varying data volumes and query complexities.
 
+## Repository files and folders
+- **Queries:** contains the queries generated for the Power Test.
+- **Query_1-4:** contains the queries for the First Throughput Test.
+- **Query_5-8:** contains the queries for the Second Throughput Test.
+- **ddl:** contains the *Create_database.sql* file, used to generate the Database.
+- **result:** contains the results of the TPC-DS, i.e. the times of the different tests.
+- **Spark.ipynb:** contains the code for the operations to perform the TPC-DS benchmark.
+- **tpcds_analysis.ipynb:** contains the code to perform the analytics.
+
 ## Key Features
 
 - **TPC-DS Benchmark Evaluation:** Utilization of the TPC-DS benchmark for assessing the performance and scalability of Apache Spark's SQL engine.
@@ -78,13 +87,6 @@ And then, configure properly the environment variables.
 7. The results for loading and query execution are saved in the result folder.
 
 Note: If you want, you can run new queries from the toolkit. Follow the guide user. 
-
-## Results and Interpretation
-
-This section outlines the key findings from the benchmark analysis:
-- **Query Performance Metrics:** Summary of query execution times and system response under varying workloads.
-- **Scalability Assessment:** Insights on system performance across different data volumes.
-- **Interpretation of Results:** Discussion on observations, patterns, and implications derived from the analysis.
 
 ## Author
 
