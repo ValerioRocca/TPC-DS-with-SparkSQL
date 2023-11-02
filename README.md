@@ -12,6 +12,7 @@ The project includes various analyses, such as measuring query execution times, 
 - **Query_5-8:** contains the queries for the Second Throughput Test.
 - **ddl:** contains the *Create_database.sql* file, used to generate the Database.
 - **result:** contains the results of the TPC-DS, i.e. the times of the different tests.
+- **Comparison Original vs Optimized.ipynb:** contains the a comparison between the original and the optimized queries.
 - **Spark.ipynb:** contains the code for the operations to perform the TPC-DS benchmark.
 - **tpcds_analysis.ipynb:** contains the code to perform the analytics.
 
